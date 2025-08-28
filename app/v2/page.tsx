@@ -19,7 +19,7 @@ export default function HomePage() {
         <div className="relative max-w-4xl mx-auto z-10">
           <div className="space-y-8">
           <div className="space-y-10">
-              <img className="h-40" src="/SVG/v4-2.svg" alt="" />
+              <img className="h-40" src="/SVG/V4-2.svg" alt="" />
               {/* Animated RE: below logo */}
               <div className="re-breathe-container">
               <span><img className="re-iso h-30" src="/SVG/iso.svg" alt="" /></span><span className="re-breathe">RE:</span>

@@ -24,7 +24,7 @@ export default function HomePage() {
         <div className="relative max-w-6xl mx-auto z-10">
           <div className="space-y-16">
           <div className="space-y-10">
-              <img className="h-30 drop-shadow-xl" src="/SVG/v4-1.svg" alt="" />
+              <img className="h-30 drop-shadow-xl" src="/SVG/V4-1.svg" alt="" />
             </div>
             <div className="space-y-4 text-left">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-left leading-tight  color-white text-balance">
