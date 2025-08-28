@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import localFont from "next/font/local"
 import "./globals.css"
+import ViewportAnimate from "@/components/viewport-animate"
 
 export const metadata: Metadata = {
   title: "Re: AI-Enabled Circular R&D Engine",
@@ -26,7 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans ${Brockmann.variable}`}>{children}</body>
+      <body className={`font-sans ${Brockmann.variable}`}>
+        {children}
+        <ViewportAnimate />
+      </body>
     </html>
   )
 }
